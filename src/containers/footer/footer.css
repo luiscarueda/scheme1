@@ -1,0 +1,28 @@
+.footer{
+    margin: 1rem;
+    background: var(--footer-color);
+    display: flex;    
+    justify-content: space-evenly;    
+    padding : 0.5rem 4rem 0.5rem 4rem;
+    
+}
+.footer__info{
+    display: flex;
+    justify-content: flex-start;
+}
+.footer__creator{
+    margin-left: 1rem;
+    font-style: italic;
+    cursor: pointer; 
+    color: var(--white-color);   
+}
+
+
+
+@media screen and (max-width:960px){
+    
+}
+
+@media screen and (max-width:480px) {
+    
+}

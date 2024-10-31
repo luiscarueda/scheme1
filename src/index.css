@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+
+
+:root {
+  
+  --font-base: "DM Sans", sans-serif;
+
+  --bg-color :             #222831;
+  --nav-color :            #393e46;
+  --primary-color :        #222831;
+  --primary-variant-color :#00adb6;
+  --services-color :       #222831;
+  --subservices-color :    #222845;
+  --contact-color:         #00adb5;
+  --footer-color :         #393e46; 
+  --main-color :           #0ef;  
+  --second-color:          #e3e3e3;
+  --text-color :           #ffffff;     
+  --subtext-color :        #455d7a;       
+  --black-color:           #000;
+  --white-color:           #c0b4b4;
+  --gray-color:            #e4dddd;
+}
+
+  
+

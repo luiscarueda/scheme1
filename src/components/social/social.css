@@ -1,0 +1,17 @@
+.social__icons i{
+    width: 45px;
+    height: 45px;
+    background:var(--main-color);
+    color: var(--text-color);
+    display: inline-flex;
+    justify-content: center;
+    align-items: center ;
+    border-radius: 8px;
+    margin-right: 15px;
+    transition: all .45s ease;
+}
+
+.social__icons i:hover{
+    background: var(--text-color);
+    color: var(--main-color);
+}

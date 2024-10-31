@@ -1,0 +1,32 @@
+.about{
+    min-height: 98vh;
+    gap: 6rem;
+    background: var(--about-color);
+    margin: 1rem
+}
+.about__img{
+    width: 35vw;
+}
+
+.about__content .about__content-item{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-content: flex-start;
+}
+
+.about__content .about__content-item h2{
+    justify-content: flex-start;
+    align-content: flex-start;
+}
+
+@media screen and (max-width:960px){
+    
+}
+
+@media screen and (max-width:480px) {
+    .about{
+        display: flex;
+        flex-direction: column-reverse;
+    }    
+}
