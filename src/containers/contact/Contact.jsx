@@ -3,7 +3,7 @@ import { Social } from '../../components'
 
 const Contact = () => {
   return (
-    <section className='initial contact section__padding'id='Contactame'>
+    <section className='initial contact section__padding'id='contact'>
       <div className='contact__text initial'>
         <h2 className='head-text'>Contact <span className='span-text'>Me!</span></h2>
         <h4>Algun proyecto en mente?</h4>

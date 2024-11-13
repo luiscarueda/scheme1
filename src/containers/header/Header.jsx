@@ -1,6 +1,6 @@
 import './header.css'
 import { photo1 } from '../../assets';
-import { HEADER_CONTENT } from '../../constants/data';
+import { HEADER } from '../../constants/data';
 import { ReactTyped } from "react-typed";
 
 const Header = () => { 
@@ -8,10 +8,10 @@ const Header = () => {
   return (
     <section className='header initial flex__center' id='Inicio'>
       <div className='header__content initial'>       
-      {HEADER_CONTENT.map((item ) =>
-      (<div className='head-text'key={item}>
-        <h3 >{item.title}</h3>
-        <h1>{item.name}</h1>
+      
+      <div className='head-text'>
+        <h3 >{HEADER.title}</h3>
+        <h1>{HEADER.tag}</h1>
         <h3 className='head-text'>y soy un <span ></span></h3>
         <ReactTyped className ='span-text'strings={['CONSULTOR' ,'SPEAKER','YOUTUBER']}       
         typeSpeed={100}
@@ -19,9 +19,9 @@ const Header = () => {
         backDelay={1000}
         loop={true}                   
         />       
-        <p className='p-text'>{item.description}</p>
+        <p className='p-text'>{HEADER.description}</p>
         </div>
-      ))}             
+                
       </div>
 
     <div className='header__photo initial'>

@@ -1,5 +1,5 @@
 import { photo2 } from '../../assets';
-import { ABOUT_CONTENT} from '../../constants/data';
+import {ABOUT} from '../../constants/data';
 import './about.css'
 import ScrollReveal from 'scrollreveal'
 
@@ -25,14 +25,13 @@ const About = () => {
         />
       </div>
     <div className='about__content initial'>
-      {ABOUT_CONTENT.map((item ) =>
-      (<div className ='about__content-item'key={item} >
-        <h2 className='head-text'>{item.title}<span className='span-text'>Mi</span></h2>
-        <h3>{item.name}</h3>
-        <h6 className='p-text'>{item.description}</h6>
-            
-        </div>
-      ))}     
+      <div className ='about__content-item' >      
+     
+        <h2 className='head-text'>{ABOUT.tag}<span className='span-text'>Mi</span></h2>
+        <h3>{ABOUT.title}</h3>
+        <h6 className='p-text'>{ABOUT.description}</h6>          
+      </div>
+          
     </div>  
         
   </section>

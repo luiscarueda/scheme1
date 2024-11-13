@@ -1,4 +1,4 @@
-import { NAVLINKS_CONTENT  } from '../../constants/data'
+import { NAVLINKS } from '../../constants/data'
 import './navbar.css'
 
 const Navbar = () => {
@@ -7,7 +7,7 @@ const Navbar = () => {
         <h2 className='navbar__logo span-text'>PORTAFOLIO</h2>
         <i className='bx bx-menu' id='menu-icon'></i>
         <ul className="navbar__links">
-        {NAVLINKS_CONTENT.map((item)=>(
+        {NAVLINKS.map((item)=>(
                 <li key={item.label}>
                 <a href={item.href}>{item.label}</a>
                 </li>

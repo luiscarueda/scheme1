@@ -1,46 +1,35 @@
-export const NAVLINKS_CONTENT = [
-
+export const NAVLINKS= [
     { href: "#Inicio",     label: "Inicio" },
     { href: "#Sobre mi",   label: "Sobre Mi" },
     { href: "#Servicios",  label: "Servicios" },
     { href: "#Contactame", label: "Contactame" },      
-];
-
-export const HEADER_CONTENT = [
-
-    {
-      title: 'hola, soy yo ',
-      name: 'MoliMillon ', 
+    ];
+export const HEADER = {
+      tag: 'hola, soy yo ',
+      title: 'MoliMillon ', 
       description: 'i3uj4ñjt 4oikkkkkkk kkkkkkkku3 4poktg ejgehkjg rehkgrjht' ,
-    }
-  ];  
-
-export const ABOUT_CONTENT = [
-    {
-      title: 'sobre ',
-      name: 'consultor', 
+    };  
+export const ABOUT = {
+      tag: 'sobre ',
+      title: 'consultor', 
       description :'mi proposito es gen eveglijdgodfgujgrgreoipoeirtpoigperoiteprotiuggopfgiueropintos confjhfjkdsfskfhsdfklsskdkdfhsdkfhsdkfshfkdfjhfwkrhweiufilewfuisientes qubf-lhgkjfgblfkjgfogieeerwwefpoiewrfovekrjpgftoerjgpokje kñlñtgeñekrñtkrgñertio4prkgfgfgflkjdglrkjvltrgkjrglgggedlkgderlkjnimpacten a gdlñwkrpwoirepwoerwperoiwpewirpowierpwoeirwpeoriw3dkr3wñlerkjweroiran cantidad de personas' ,
-    }
-  ] ; 
-
-  
-
-  export const SERVICES_CONTENT = [
+    };  
+export const SERVICES = [
     {
-      title: 'CONSULTOR',
-      text: 'TE APOYO EN LO QUE NECESITES',
+      tag: 'TE APOYO EN LO QUE NECESITES',
+      title: 'CONSULTOR',      
       description :'efergregokrthtoykjykl',
     }
     ,
     {
-      title: 'ANIMADOR',
-      text: 'TIENES UN EVENTO EN MENTE',
+      tag: 'TIENES UN EVENTO EN MENTE',
+      title: 'ANIMADOR',      
       description :'Tue',
     }
     ,
     {
-      title: 'CANTANTE',
-      text: 'UNA SERENATA PARA TU NOVIA O AMANTE',
+      tag: 'UNA SERENATA PARA TU NOVIA O AMANTE',
+      title: 'CANTANTE',      
       description :'Tuesd ',
     }
-  ]  
+  ] 
