@@ -1,3 +1,6 @@
+import { photo01,photo02 } from "./images";
+
+
 export const NAVLINKS= [
     { href: "#Inicio",     label: "Inicio" },
     { href: "#Sobre mi",   label: "Sobre Mi" },
@@ -8,11 +11,13 @@ export const HEADER = {
       tag: 'hola, soy yo ',
       title: 'MoliMillon ', 
       description: 'i3uj4ñjt 4oikkkkkkk kkkkkkkku3 4poktg ejgehkjg rehkgrjht' ,
+      photo : photo01,
     };  
 export const ABOUT = {
       tag: 'sobre ',
       title: 'consultor', 
       description :'mi proposito es gen eveglijdgodfgujgrgreoipoeirtpoigperoiteprotiuggopfgiueropintos confjhfjkdsfskfhsdfklsskdkdfhsdkfhsdkfshfkdfjhfwkrhweiufilewfuisientes qubf-lhgkjfgblfkjgfogieeerwwefpoiewrfovekrjpgftoerjgpokje kñlñtgeñekrñtkrgñertio4prkgfgfgflkjdglrkjvltrgkjrglgggedlkgderlkjnimpacten a gdlñwkrpwoirepwoerwperoiwpewirpowierpwoeirwpeoriw3dkr3wñlerkjweroiran cantidad de personas' ,
+      photo : photo02,
     };  
 export const SERVICES = [
     {

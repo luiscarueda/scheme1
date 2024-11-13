@@ -1,4 +1,3 @@
-import { photo2 } from '../../assets';
 import {ABOUT} from '../../constants/data';
 import './about.css'
 import ScrollReveal from 'scrollreveal'
@@ -18,7 +17,7 @@ const About = () => {
     <section className='about initial section__padding flex__center ' id='Sobre mi' >      
       <div className=' about__img flex__center initial'>      
         <img 
-        src={photo2}
+        src={ABOUT.photo}
         width={300}
         height={300}
         alt="photo2" 

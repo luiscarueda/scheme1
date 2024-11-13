@@ -1,5 +1,5 @@
 import './header.css'
-import { photo1 } from '../../assets';
+
 import { HEADER } from '../../constants/data';
 import { ReactTyped } from "react-typed";
 
@@ -25,7 +25,7 @@ const Header = () => {
       </div>
 
     <div className='header__photo initial'>
-        <img src={photo1}  
+        <img src={HEADER.photo}  
          width = {300}
          height={250}          
          alt="photo1" 
