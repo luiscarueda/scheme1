@@ -8,17 +8,17 @@
   
   --font-base: "DM Sans", sans-serif;
 
-  --bg-color :             #222831;
-  --nav-color :            #393e46;
-  --header-color:          #254861;
-  --about-color:           #258861;
-  --services-color :       #222831;
-  --subservices-color :    #222845;
-  --contact-color:         #00adb5;
-  --footer-color :         #704711;   
+  --bg-color :             #B9E5E8;
+  --nav-color :            #7AB2D3;
+  --header-color:          #B9E5E8;
+  --about-color:           #B9E5E8;
+  --services-color :       #B9E5E8;
+  --subservices-color :    #B9E5E8;
+  --contact-color:         #7AB2D3 ;
+  --footer-color :         #B9E5E8 ;   
   
-  --main-color :           #447755;
-   --text-color :           #ffffff;   
+  --main-color :           #4A628A;
+   --text-color :          #ffffff;   
   --second-color:          #e3e3e3;
      
   --subtext-color :        #455d7a;       

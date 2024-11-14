@@ -6,7 +6,7 @@ import { ReactTyped } from "react-typed";
 const Header = () => { 
   
   return (
-    <section className='header initial flex__center' id='Inicio'>
+    <section className='header initial flex__center' id='home'>
       <div className='header__content initial'>       
       
       <div className='head-text'>

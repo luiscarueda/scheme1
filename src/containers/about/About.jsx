@@ -14,7 +14,7 @@ const About = () => {
   {origin:'top'})
   
   return (
-    <section className='about initial section__padding flex__center ' id='Sobre mi' >      
+    <section className='about initial section__padding flex__center ' id='about' >      
       <div className=' about__img flex__center initial'>      
         <img 
         src={ABOUT.photo}
