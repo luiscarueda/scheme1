@@ -24,7 +24,7 @@
     transition: .3s;
 }
 .navbar a:hover{
-    color: var(--main-color);
+    color: var(--primary-color);
 }
 .navbar__links {
     flex: 1;

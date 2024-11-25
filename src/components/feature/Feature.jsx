@@ -8,13 +8,13 @@ const Feature = ({title,text,description}) => {
     <div  className=' feature__container '>
       
       <div  >        
-        <h2 className='head-text'>{title}</h2>
+        <h2 className='head__text'>{title}</h2>
       </div>
      <div >
-      <h3 className='p-text'>{text}</h3>
+      <h3 className='p__text'>{text}</h3>
      <details>
       <summary className='button__details'>saber mas</summary>
-      <p className='p-text'>{description}</p>
+      <p className='p__text'>{description}</p>
      </details>     
     </div>     
     </div>

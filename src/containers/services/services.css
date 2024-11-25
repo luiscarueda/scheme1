@@ -2,25 +2,19 @@
     min-height: 98vh;
     background: var(--services-color);
     flex-direction: column;
-    margin: 1rem;
-    
+    margin: 1rem;    
 }
 .services__heading {
-    margin-top: 1rem;
-     
+    margin-top: 1rem;     
 }
-
 .services__container{
     flex-wrap: wrap;
     gap: 2rem;
 }
-
 .services__container :hover{
-    border-color: var(--main-color);
-    /*transform: scale(1.02);*/
-    
+    border-color: var(--primary-color);
+    /*transform: scale(1.02);*/    
 }
-
 
 @media screen and (max-width:960px){
     

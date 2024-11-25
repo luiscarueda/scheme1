@@ -1,27 +1,24 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
-
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
 
-
-
-:root {
-  
+:root {  
   --font-base: "DM Sans", sans-serif;
 
-  --bg-color :             #B9E5E8;
-  --nav-color :            #7AB2D3;
-  --header-color:          #B9E5E8;
-  --about-color:           #B9E5E8;
-  --services-color :       #B9E5E8;
-  --subservices-color :    #B9E5E8;
-  --contact-color:         #7AB2D3 ;
-  --footer-color :         #B9E5E8 ;   
-  
-  --main-color :           #4A628A;
-   --text-color :          #ffffff;   
-  --second-color:          #e3e3e3;
-     
-  --subtext-color :        #455d7a;       
+  --bg-color :            #1f242d;
+  --bg-variant-color:     #323946;
+  --primary-color :       #00eeff;
+
+  --nav-color :            var(--bg-color);
+  --header-color:          var(--bg-color);
+  --about-color:           var(--bg-variant-color);
+  --services-color :       var(--bg-color);
+  --subservices-color :    var(--bg-variant-color);
+  --contact-color:         var(--bg-color);
+  --footer-color :         var(--bg-variant-color);  
+   
+  --text-color :           #ffffff;
+  --subtext-color :        #e3e3e3 ;   
+             
   --black-color:           #000;
   --white-color:           #c0b4b4;
   --gray-color:            #e4dddd;

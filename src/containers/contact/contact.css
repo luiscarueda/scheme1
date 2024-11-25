@@ -17,14 +17,11 @@
 .contact h4{
     margin: 18px 0;
 }
-
 .contact p{
     margin-bottom: 30px;
 }
-
 .contact__form{
     position: relative;
-
 }
 .contact__form form input , form textarea {
     width: 100%;
@@ -44,14 +41,13 @@
 .contact__form .submit{
     display: inline-block;
     font-size: 16px;
-    background: var(--main-color);
+    background: var(--primary-color);
     color: var(--text-color);
     width: 160px;
     transition: all .45s ease;
     margin-left: 40%;
     cursor: pointer;
 }
-
 
 @media screen and (max-width:960px){
     
@@ -60,7 +56,6 @@
 @media screen and (max-width:480px) {
     .contact{
         grid-template-columns: 1fr;
-    }
-    
+    }   
     
 }

@@ -26,9 +26,9 @@ const About = () => {
     <div className='about__content initial'>
       <div className ='about__content-item' >      
      
-        <h2 className='head-text'>{ABOUT.tag}<span className='span-text'>Mi</span></h2>
+        <h2 className='head__text'>{ABOUT.tag}<span className='span__text'>Mi</span></h2>
         <h3>{ABOUT.title}</h3>
-        <h6 className='p-text'>{ABOUT.description}</h6>          
+        <h6 className='p__text'>{ABOUT.description}</h6>          
       </div>
           
     </div>  

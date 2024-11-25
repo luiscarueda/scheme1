@@ -9,17 +9,17 @@ const Header = () => {
     <section className='header initial flex__center' id='home'>
       <div className='header__content initial'>       
       
-      <div className='head-text'>
+      <div className='head__text'>
         <h3 >{HEADER.title}</h3>
         <h1>{HEADER.tag}</h1>
-        <h3 className='head-text'>y soy un <span ></span></h3>
-        <ReactTyped className ='span-text'strings={['CONSULTOR' ,'SPEAKER','YOUTUBER']}       
+        <h3 className='head__text'>y soy un <span ></span></h3>
+        <ReactTyped className ='span__text'strings={['CONSULTOR' ,'SPEAKER','YOUTUBER']}       
         typeSpeed={100}
         backSpeed={100}
         backDelay={1000}
         loop={true}                   
         />       
-        <p className='p-text'>{HEADER.description}</p>
+        <p className='p__text'>{HEADER.description}</p>
         </div>
                 
       </div>

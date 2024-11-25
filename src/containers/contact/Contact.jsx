@@ -5,7 +5,7 @@ const Contact = () => {
   return (
     <section className='initial contact section__padding'id='contact'>
       <div className='contact__text initial'>
-        <h2 className='head-text'>Contact <span className='span-text'>Me!</span></h2>
+        <h2 className='head__text'>Contact <span className='span__text'>Me!</span></h2>
         <h4>Algun proyecto en mente?</h4>
         <p className='p__text'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto, hic nesciunt voluptatem iste nobis repellat?</p>
         <a href=""></a>
